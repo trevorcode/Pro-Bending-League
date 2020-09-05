@@ -1,0 +1,42 @@
+* {
+    box-sizing:border-box
+}
+
+html, body {
+    margin:0px;
+    padding:0px;
+}
+
+.groupPlayContainer {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.groupPlayCard {
+    padding:0px;
+    border: solid 1px gray;
+    margin:20px;
+}
+
+.groupPlayHeader {
+    background-color:lightgray;
+    padding:0 30px;
+    text-align:center;
+}
+
+table {
+    width:100%;
+}
+
+table, tbody, tr, td {
+    margin:0px;
+    padding:0px;
+    border-collapse: collapse;
+
+}
+
+td {
+    border:solid 1px gray;
+    padding:5px 10px;
+}
