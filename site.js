@@ -8,7 +8,7 @@ fetch('https://api.github.com/gists/44ddba9c6b1d9e5db33dd89e60ba879b')
 
         renderPlayersTable();
 
-        renderGroups();
+        //renderGroups();
     });
 
 function renderPlayersTable() {
