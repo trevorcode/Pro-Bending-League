@@ -11,7 +11,7 @@ players.Add( new Player("blahblahjdlfk","Be the leaf", 2));
 players.Add( new Player("Uno","Team 1/3 Bald", 2));
 players.Add( new Player("Jedi271","The Nomadic Elementals", 3));
 players.Add( new Player("Quenchy_CactusJuice","", 3));
-players.Add( new Player("grjnfrukbf","", 3));
+players.Add( new Player("grjnfrukbf","The anarchists", 3));
 players.Add( new Player("Vaxiffy_","The Bend It Like Beifongs", 4));
 players.Add( new Player("IUsedToBeRa'sAlGhul","The Rampaging Raptorbeetles", 4));
 players.Add( new Player("MorningPants","The Cougar-Sharks", 4));
