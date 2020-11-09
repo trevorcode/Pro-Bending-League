@@ -37,6 +37,7 @@ public void BuildJson()
     newPlayer.Benders.Add(new Bender("Rangi", "Fire"));
     newPlayer.Benders.Add(new Bender("Kuvira", "Earth"));
     newPlayer.Benders.Add(new Bender("Jinora", "Water"));
+    newPlayer.ImageURL = "/images/unicorn.jpg";
     players.Add(newPlayer);
 
     newPlayer = new Player("Gunchar16", "gunchar team", 2);
@@ -65,7 +66,7 @@ public void BuildJson()
     newPlayer.Benders.Add(new Bender("Tenzin", "Water"));
     players.Add(newPlayer);
 
-    newPlayer = new Player("Quenchy_CactusJuice", "quenchy's team", 3);
+    newPlayer = new Player("Quenchy_CactusJuice", "Raging Turtle Ducks", 3);
     newPlayer.Benders.Add(new Bender("Ozai", "Fire"));
     newPlayer.Benders.Add(new Bender("Yaling", "Earth"));
     newPlayer.Benders.Add(new Bender("Katara", "Water"));
@@ -77,7 +78,7 @@ public void BuildJson()
     newPlayer.Benders.Add(new Bender("Takaga", "Water"));
     players.Add(newPlayer);
 
-    newPlayer = new Player("samastrom16", "samastrom16 team", 3);
+    newPlayer = new Player("samastrom16", "The Polar Jaguars", 3);
     newPlayer.Benders.Add(new Bender("Asami", "Fire"));
     newPlayer.Benders.Add(new Bender("Ghazan", "Earth"));
     newPlayer.Benders.Add(new Bender("Eska", "Water"));
