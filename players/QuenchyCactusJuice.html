@@ -1,0 +1,65 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Pro-bending League</title>
+    <meta name="description" content="Pro-bending League">
+
+    <link rel="stylesheet" href="../site.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+
+    <style>
+        .bendersContainer {
+            display:grid;
+            grid-template-columns: auto auto auto;
+            justify-content: center;
+            align-items: center;
+            grid-gap:15px;
+        }
+
+        .elementContainer {
+            text-align:center;
+            border: 1px solid #ccc;
+            border-radius:5px;
+            padding:8px;
+            height:60px;
+            display:grid;
+            align-content:space-between;
+        }
+
+        .elementContainer div:first-of-type {
+            border-bottom: 1px solid #ccc;
+        }
+
+        .teamImage {
+            object-fit: cover;
+            max-width:720px;
+        }
+        .imageContainer {
+            text-align:center;
+            margin-top:2.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a href="/schedule.html">Back To Schedule</a>
+        <h1 style="text-align:center">quenchy's team</h1>
+
+        <h2 style="text-align:center">Quenchy_CactusJuice</h2>
+        <div class="bendersContainer">
+            <div class="elementContainer"><div><b>Water</b></div><div>Katara</div></div>
+            <div class="elementContainer"><div><b>Earth</b></div><div>Yaling</div></div>
+            <div class="elementContainer"><div><b>Fire</b></div><div>Ozai</div></div>
+        </div>
+        <div class="imageContainer">
+            <img src="" class="teamImage"/>
+        </div>
+    </div>
+</body>
+
+</html>
