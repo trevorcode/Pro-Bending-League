@@ -9,8 +9,8 @@ public void BuildJson()
 
     newPlayer = new Player("Blastoise101", "The Zaofu Badgermoles", 1);
     newPlayer.Benders.Add(new Bender("Wan", "Fire"));
-    newPlayer.Benders.Add(new Bender("Suyin", "Earth"));
-    newPlayer.Benders.Add(new Bender("Kuruk", "Water"));
+    newPlayer.Benders.Add(new Bender("Suyin", "Water"));
+    newPlayer.Benders.Add(new Bender("Kuruk", "Earth"));
     players.Add(newPlayer);
 
     newPlayer = new Player("IbbiX", "Sleek JaguaRavens", 1);
@@ -40,7 +40,7 @@ public void BuildJson()
     newPlayer.ImageURL = "/images/unicorn.jpg";
     players.Add(newPlayer);
 
-    newPlayer = new Player("Gunchar16", "gunchar team", 2);
+    newPlayer = new Player("Gunchar16", "The Blitzing Hunters", 2);
     newPlayer.Benders.Add(new Bender("Mako", "Fire"));
     newPlayer.Benders.Add(new Bender("Xin Fu", "Earth"));
     newPlayer.Benders.Add(new Bender("Ming Hua", "Water"));

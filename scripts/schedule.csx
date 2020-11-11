@@ -22,7 +22,7 @@ public void BuildSchedule()
     string newHtml = "";
     List<Player> players = JsonSerializer.Deserialize<List<Player>>(playerJson);
 
-    var currentDate = DateTime.Now.AddDays(3);
+    var currentDate = new DateTime(2020, 11, 12);
 
     var groups = players.Select(m => m.Group).ToList();
     var listOfMatches = new List<Match>();
