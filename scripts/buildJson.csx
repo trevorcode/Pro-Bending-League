@@ -53,10 +53,10 @@ public void BuildJson()
     players.Add(newPlayer);
 
 
-    newPlayer = new Player("Uno", "Team 1/3 Bald", 2);
-    newPlayer.Benders.Add(new Bender("Roku", "Fire"));
+    newPlayer = new Player("Uno", "Bald Minority", 2);
+    newPlayer.Benders.Add(new Bender("Zaheer", "Fire"));
     newPlayer.Benders.Add(new Bender("The Boulder", "Earth"));
-    newPlayer.Benders.Add(new Bender("Zaheer", "Water"));
+    newPlayer.Benders.Add(new Bender("Tonraq", "Water"));
     players.Add(newPlayer);
 
 
