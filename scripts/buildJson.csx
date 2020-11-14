@@ -95,6 +95,7 @@ public void BuildJson()
     newPlayer.Benders.Add(new Bender("Hei-Ran", "Fire"));
     newPlayer.Benders.Add(new Bender("Yun", "Earth"));
     newPlayer.Benders.Add(new Bender("Sokka", "Water"));
+    newPlayer.ImageURL = "/images/raptorbeetles.jpg";
     players.Add(newPlayer);
 
     newPlayer = new Player("MorningPants", "The Cougar-Sharks", 4);
