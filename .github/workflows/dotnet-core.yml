@@ -23,3 +23,5 @@ jobs:
     - name: RunScript2
       run: dotnet-script ./scripts/main.csx
       shell: pwsh
+    - name: WhatisHappening
+      run: ls -al
