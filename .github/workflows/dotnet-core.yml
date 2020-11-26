@@ -22,3 +22,4 @@ jobs:
       shell: pwsh
     - name: RunScript2
       run: dotnet-script ./scripts/main.csx
+      shell: pwsh
