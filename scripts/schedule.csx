@@ -9,12 +9,12 @@ public void BuildSchedule()
     string playerJson;
     string teamsTemplate;
 
-    using (var reader = new StreamReader("../test.json"))
+    using (var reader = new StreamReader("test.json"))
     {
         playerJson = reader.ReadToEnd();
     }
 
-    using (var reader = new StreamReader("../scheduleTemplate.html"))
+    using (var reader = new StreamReader("scheduleTemplate.html"))
     {
         teamsTemplate = reader.ReadToEnd();
     }
@@ -97,7 +97,7 @@ public void BuildSchedule()
 
     var html = teamsTemplate.Replace("{{Schedule}}", newHtml);
 
-    using (var writer = new StreamWriter("../schedule.html", false))
+    using (var writer = new StreamWriter("schedule.html", false))
     {
         writer.Write(html);
     }

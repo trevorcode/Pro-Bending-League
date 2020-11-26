@@ -106,7 +106,7 @@ public void BuildJson()
     players.Add(newPlayer);
 
     var json = JsonSerializer.Serialize(players);
-    var writer = new StreamWriter("../test.json", false);
+    var writer = new StreamWriter("./test.json", false);
     writer.Write(json);
     writer.Close();
 }

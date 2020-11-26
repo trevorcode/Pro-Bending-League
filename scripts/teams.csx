@@ -8,12 +8,12 @@ public void BuildTeams()
     string playerJson;
     string teamsTemplate;
 
-    using (var reader = new StreamReader("../test.json"))
+    using (var reader = new StreamReader("test.json"))
     {
         playerJson = reader.ReadToEnd();
     }
 
-    using (var reader = new StreamReader("../teamsTemplate.html"))
+    using (var reader = new StreamReader("teamsTemplate.html"))
     {
         teamsTemplate = reader.ReadToEnd();
     }
@@ -32,7 +32,7 @@ public void BuildTeams()
 
     var html = teamsTemplate.Replace("{{Teams}}", newHtml);
 
-    using (var writer = new StreamWriter("../teams.html", false))
+    using (var writer = new StreamWriter("teams.html", false))
     {
         writer.Write(html);
     }

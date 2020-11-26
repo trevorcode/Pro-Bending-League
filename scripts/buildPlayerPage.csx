@@ -8,22 +8,22 @@ public void BuildPlayerPages()
     string playerJson;
     string pageTemplate;
 
-    using (var reader = new StreamReader("../test.json"))
+    using (var reader = new StreamReader("test.json"))
     {
         playerJson = reader.ReadToEnd();
     }
 
-    using (var reader = new StreamReader("../playerPageTemplate.html"))
+    using (var reader = new StreamReader("./playerPageTemplate.html"))
     {
         pageTemplate = reader.ReadToEnd();
     }
 
-    if (!Directory.Exists("../players"))
+    if (!Directory.Exists("players"))
     {
-        Directory.CreateDirectory("../players");
+        Directory.CreateDirectory("players");
     }
     else {
-        var di = new DirectoryInfo("../players");
+        var di = new DirectoryInfo("players");
         foreach (var file in di.GetFiles())
         {
             file.Delete();
@@ -52,7 +52,7 @@ public void BuildPlayerPages()
         Regex reg = new Regex("[^a-zA-Z]");
         string playerNamePage = reg.Replace(player.Name, string.Empty);
 
-        using (var writer = new StreamWriter($"../players/{playerNamePage}.html", false))
+        using (var writer = new StreamWriter($"players/{playerNamePage}.html", false))
         {
             writer.Write(html);
         }
