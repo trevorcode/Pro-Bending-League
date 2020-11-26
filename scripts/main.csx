@@ -7,3 +7,5 @@ BuildJson();
 BuildTeams();
 BuildSchedule();
 BuildPlayerPages();
+
+Console.WriteLine("hello, you made it here");
