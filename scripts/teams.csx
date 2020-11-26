@@ -5,6 +5,7 @@ using System.Text.RegularExpressions;
 
 public void BuildTeams()
 {
+    Console.WriteLine("Building Teams");
     string playerJson;
     string teamsTemplate;
 
@@ -36,4 +37,6 @@ public void BuildTeams()
     {
         writer.Write(html);
     }
+
+    Console.WriteLine("Done Building Teams");
 }

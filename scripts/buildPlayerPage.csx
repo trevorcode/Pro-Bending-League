@@ -5,6 +5,7 @@ using System.Text.RegularExpressions;
 
 public void BuildPlayerPages()
 {
+    Console.WriteLine("Building Player Pages");
     string playerJson;
     string pageTemplate;
 
@@ -60,6 +61,6 @@ public void BuildPlayerPages()
 
     
 
-    
+    Console.WriteLine("Done Building Player Pages");
 }
 

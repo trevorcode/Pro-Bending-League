@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 
 public void BuildSchedule()
 {
-
+    Console.WriteLine("Building Schedule");
     string playerJson;
     string teamsTemplate;
 
@@ -101,6 +101,7 @@ public void BuildSchedule()
     {
         writer.Write(html);
     }
+    Console.WriteLine("Done Building Schedule");
 }
 
 public class Match

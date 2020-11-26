@@ -4,6 +4,7 @@ using System.Text.Json;
 
 public void BuildJson()
 {
+    Console.WriteLine("Building JSON");
     List<Player> players = new List<Player>();
     Player newPlayer;
 
@@ -109,6 +110,8 @@ public void BuildJson()
     var writer = new StreamWriter("./test.json", false);
     writer.Write(json);
     writer.Close();
+
+    Console.WriteLine("Done building JSON");
 }
 
 
