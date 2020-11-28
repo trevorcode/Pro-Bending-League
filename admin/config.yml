@@ -3,6 +3,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
   repo: trevorcode/Pro-Bending-League
   site_domain: tofucode.dev
+  base_url: https://api.netlify.com
 
 publish_mode: editorial_workflow
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
