@@ -1,6 +1,6 @@
 backend:
   name: github
-  branch: master # Branch to update (optional; defaults to master)
+  branch: release # Branch to update (optional; defaults to master)
   repo: trevorcode/Pro-Bending-League
   base_url: https://api.netlify.com
   api_root: https://api.github.com
