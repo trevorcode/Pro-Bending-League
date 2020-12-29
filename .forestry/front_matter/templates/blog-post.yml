@@ -1,4 +1,32 @@
 ---
 label: Blog Post
 hide_body: false
-fields: []
+fields:
+- name: imageHeader
+  type: file
+  config:
+    maxSize: 64
+  label: Image Header
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: published_date
+  type: datetime
+  label: Published Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: content
