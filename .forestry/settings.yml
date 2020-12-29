@@ -9,7 +9,7 @@ sections:
   label: Posts
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 upload_dir: uploads/images
 public_path: "/uploads/images"
 front_matter_path: ''
