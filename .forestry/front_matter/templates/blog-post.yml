@@ -31,3 +31,5 @@ fields:
     schema:
       format: markdown
   label: content
+pages:
+- upload/posts/test.md
